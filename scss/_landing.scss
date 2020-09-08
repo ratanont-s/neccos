@@ -1,6 +1,9 @@
 #banner{
     position: relative;
     padding: 170px 0px 0px;
+    >.container-fluid{
+        max-width: 1345px;
+    }
     .banner{
         &-img{
             width: 100%;
@@ -140,6 +143,9 @@
             flex-shrink: 0;
             justify-content: center;
             align-items: center;
+        }
+        &-title{
+            line-height: 32px;
         }
         &-text{
             font-size: 12px;
