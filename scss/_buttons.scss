@@ -1,0 +1,6 @@
+.btn-orange{
+    color: color-yiq(theme-color("dark"));
+    @include hover{
+        color: color-yiq(theme-color("dark"));
+    }
+}

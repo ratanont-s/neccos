@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'Yu Gothic';
+    src: url('../font/YuGothic-Bold.woff2') format('woff2'),
+        url('../font/YuGothic-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap');
+
+@import './variables';
+
+@import './bootstrap/bootstrap.scss';
+
+@import './buttons';
+
+@import './header';
+
+@import './landing';
