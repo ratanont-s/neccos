@@ -1,24 +1,31 @@
-header{
-    .navbar{
-        >.container-fluid{
+header {
+    .navbar {
+        >.container-fluid {
             max-width: 1345px;
         }
     }
-    @include media-breakpoint-up(lg){
-        .header{
-            &-icon{
-                &-phone{
+
+    @include media-breakpoint-up(lg) {
+        .w-lg-auto {
+            width: auto !important;
+        }
+
+        .header {
+            &-icon {
+                &-phone {
                     width: 60px;
                     height: 60px;
                     object-fit: contain;
                 }
             }
-            &-text{
-                &-phone{
+
+            &-text {
+                &-phone {
                     @include font-size(28);
                     line-height: 1;
                 }
-                &-open{
+
+                &-open {
                     @include font-size(18);
                     line-height: 1;
                 }

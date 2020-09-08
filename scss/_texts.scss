@@ -1,0 +1,14 @@
+.text-underline {
+    position: relative;
+
+    &::before {
+        content: '';
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        height: 0.5rem;
+        background-color: $orange;
+        mix-blend-mode: multiply;
+    }
+}

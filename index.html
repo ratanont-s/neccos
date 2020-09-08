@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="jp">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,6 +12,7 @@
     <!-- CSS -->
     <link rel="stylesheet" href="./assets/css/style.min.css">
 </head>
+
 <body>
     <header class="sticky-top shadow">
         <nav class="navbar navbar-expand-lg navbar-light bg-white">
@@ -22,7 +24,7 @@
                         <img src="./assets/img/logo@2x.png" alt="neccos">
                     </picture>
                 </a>
-                <div class="ml-lg-auto">
+                <div class="ml-lg-auto w-100 w-lg-auto">
                     <div class="form-row align-items-center justify-content-center">
                         <div class="col-auto">
                             <img src="./assets/img/icon-phone.svg" alt="" class="header-icon-phone">
@@ -30,7 +32,8 @@
                         <div class="col-auto">
                             <div class="d-flex flex-lg-column">
                                 <div class="mr-3 mr-lg-0">
-                                    <a href="tel:+" class="header-text-phone text-brown font-weight-bold">03-6869-5536</a>
+                                    <a href="tel:+"
+                                        class="header-text-phone text-brown font-weight-bold">03-6869-5536</a>
                                 </div>
                                 <div>
                                     <small class="header-text-open">平⽇10：00〜18：00</small>
@@ -40,7 +43,7 @@
                     </div>
                 </div>
             </div>
-          </nav>
+        </nav>
     </header>
     <main>
         <section id="banner">
@@ -54,20 +57,19 @@
                     <div class="col-lg">
                         <div class="banner-text">
                             <h1>
-                                <span class="mb-1">アクセス数・お問い合わせ数・</span>
-                                <div class="w-100"></div>
-                                <span>売り上げアップに繋がる！</span>
+                                <div class="banner-text-title"><span>アクセス数</span></div><br>
+                                <div class="banner-text-title"><span>お問い合わせ数</span></div><br>
+                                <div class="banner-text-title"><span>売り上げアップに繋がる！</span></div>
                             </h1>
                             <h2 class="mb-4">
-                                <span>SEOコンサルティング会社ならネッコス</span>
+                                <div class="banner-text-subtitle">
+                                    <span>SEOコンサルティング会社ならネッコス</span>
+                                </div>
                             </h2>
                             <p class="mb-5 mb-lg-0">
-                                狙ったキーワードで検索順位をアップ！
-                                集客数を激増させるSEO対策をご提案。
-                                「サイトが見られていない」
-                                「売上に繋がらない」などのサイトを
-                                成果に繫がるSEO戦略で、見られる！
-                                売れるウェブサイトへ変えてみませんか？
+                                狙ったキーワードで検索順位をアップ！集客数を激増させるSEO対策をご提案。<br>
+                                「サイトが見られていない」「売上に繋がらない」などのサイトを <br>
+                                成果に繋がるSEO戦略で、見られる！売れるウェブサイトへ変えてみませんか？
                             </p>
                         </div>
                     </div>
@@ -75,19 +77,31 @@
                         <form action="/" class="banner-form">
                             <div class="form-group">
                                 <label for="">会社名<span class="text-red">*</span></label>
-                                <input type="text" class="form-control">
+                                <input type="text" class="form-control is-valid" required>
+                                <div class="invalid-feedback">
+                                    Please provide a valid.
+                                </div>
                             </div>
                             <div class="form-group">
                                 <label for="">氏名<span class="text-red">*</span></label>
-                                <input type="text" class="form-control">
+                                <input type="text" class="form-control is-valid" required>
+                                <div class="invalid-feedback">
+                                    Please provide a valid.
+                                </div>
                             </div>
                             <div class="form-group">
                                 <label for="">メールアドレス<span class="text-red">*</span></label>
-                                <input type="text" class="form-control">
+                                <input type="text" class="form-control is-invalid" required>
+                                <div class="invalid-feedback">
+                                    Please provide a valid.
+                                </div>
                             </div>
                             <div class="form-group">
                                 <label for="">電話番号<span class="text-red">*</span></label>
-                                <input type="text" class="form-control">
+                                <input type="text" class="form-control is-invalid" required>
+                                <div class="invalid-feedback">
+                                    Please provide a valid.
+                                </div>
                             </div>
                             <button type="submit" class="btn btn-orange btn-lg btn-block">送信する</button>
                         </form>
@@ -97,64 +111,65 @@
         </section>
         <section id="sec1">
             <div class="container text-center">
-                <h2 class="text-title mb-4 mb-lg-5">こんなことでお困りではないですか？</h2>
+                <h2 class="text-title mb-4 mb-lg-5">こんなことでお困りでは<span class="d-block d-sm-inline-block">ないですか？</span>
+                </h2>
                 <div class="row justify-content-center">
                     <div class="col-6 col-sm-4 col-lg-3 mb-4 mb-lg-5">
                         <img src="./assets/img/icon-issue01.svg" alt="" class="issue-icon">
                         <h5 class="issue-title">
-                            SEO対策について
+                            SEO対策について <br>
                             詳しく分からない
                         </h5>
                     </div>
                     <div class="col-6 col-sm-4 col-lg-3 mb-4 mb-lg-5">
                         <img src="./assets/img/icon-issue02.svg" alt="" class="issue-icon">
                         <h5 class="issue-title">
-                            本当に検索順位が上がれば
-集客ができるの？
+                            本当に検索順位が上がれば <br>
+                            集客ができるの？
                         </h5>
                     </div>
                     <div class="col-6 col-sm-4 col-lg-3 mb-4 mb-lg-5">
                         <img src="./assets/img/icon-issue03.svg" alt="" class="issue-icon">
                         <h5 class="issue-title">
-                            SEO対策会社に
-依頼したものの、
-あまり効果が出なかった
+                            SEO対策会社に <br>
+                            依頼したものの、<br>
+                            あまり効果が出なかった
                         </h5>
                     </div>
                     <div class="col-6 col-sm-4 col-lg-3 mb-4 mb-lg-5">
                         <img src="./assets/img/icon-issue04.svg" alt="" class="issue-icon">
                         <h5 class="issue-title">
-                            どのキーワードを
-狙うべきか分からない
+                            どのキーワードを <br>
+                            狙うべきか分からない
                         </h5>
                     </div>
                     <div class="col-6 col-sm-4 col-lg-3 mb-4 mb-lg-5">
                         <img src="./assets/img/icon-issue05.svg" alt="" class="issue-icon">
                         <h5 class="issue-title">
-                            自社で行っている
-SEO対策の取り組みが
-正しいか不明
+                            自社で行っている <br>
+                            SEO対策の取り組みが <br>
+                            正しいか不明
                         </h5>
                     </div>
                     <div class="col-6 col-sm-4 col-lg-3 mb-4 mb-lg-5">
                         <img src="./assets/img/icon-issue06.svg" alt="" class="issue-icon">
                         <h5 class="issue-title">
-                            信頼できるSEO会社
-きちんと測定したい
+                            信頼できるSEO会社 <br>
+                            きちんと測定したい
                         </h5>
                     </div>
                     <div class="col-6 col-sm-4 col-lg-3 mb-4 mb-lg-5">
                         <img src="./assets/img/icon-issue07.svg" alt="" class="issue-icon">
                         <h5 class="issue-title">
-                            費用や人的コストを
-かけた分だけ成果が出るの？
+                            費用や人的コストを <br>
+                            かけた分だけ成果が出るの？
                         </h5>
                     </div>
                     <div class="col-6 col-sm-4 col-lg-3 mb-4 mb-lg-5">
                         <img src="./assets/img/icon-issue08.svg" alt="" class="issue-icon">
                         <h5 class="issue-title">
-                            SEO対策の効果を
-選びが難しい
+                            SEO対策の効果を <br>
+                            選びが難しい
                         </h5>
                     </div>
                 </div>
@@ -164,27 +179,23 @@ SEO対策の取り組みが
             <div class="container text-center">
                 <h2 class="text-title mb-4 mb-lg-5">
                     ネッコスのSEO
-コンサルティングが
-成果に繫がる理由
+                    <span class="d-block d-sm-inline-block">コンサルティングが</span>
+                    <span class="d-block d-sm-inline-block">成果に繫がる理由</span>
                 </h2>
                 <p>
                     ネッコスのSEO対策コンサルティングは <br>
-<span>ゼロから成果を上げたい</span>ウェブサイトに最適なサービスです！
+                    <span>ゼロから成果を上げたい</span>ウェブサイ<br class="d-lg-none">トに最適なサービスです！
+                </p>
+                <p class="my-4 my-lg-5">
+                    検索に引っかからない新規立ち上げサイトを、短期間で月間 <br class="d-none d-lg-block">
+                    500万人のユーザーに “見られる”サイトへと成長させた実績から、<br class="d-none d-lg-block">
+                    「成果が上がらない」 ウェブサイトに対する <br class="d-none d-lg-block">
+                    SEO戦略を強みにしています。
                 </p>
                 <p>
-                    検索に引っかからない新規立ち上げ
-サイトを短期間で月間500万人の
-ユーザーに”見られる”サイトへと
-成長させた実績から、弊社は「結果が出て
-いない」「成果が上がらない」ウェブサイト
-に対するSEO戦略を強みにしています。
-                </p>
-                <p>
-                    海外のSEO最新トレンドを
-キャッチアップしウェブサイトのテーマや
-課題に沿ったオーダーメイドのご提案。
-細やかな分析で結果の見える
-コンサルティングをご提供します。
+                    海外のSEO最新トレンドを<br class="d-lg-none">キャッチアップし <br class="d-none d-lg-block">
+                    ウェブサイトのテーマや<br class="d-lg-none">課題に沿ったオーダーメイドのご提案。<br>
+                    細やかな分析で結果の見える<br class="d-lg-none">コンサルティングをご提供します。
                 </p>
             </div>
         </section>
@@ -195,19 +206,19 @@ SEO対策の取り組みが
                         <img src="./assets/img/img-box1.svg" alt="" class="box-img box-img-1 mb-4 mb-lg-0">
                     </div>
                     <div class="col-lg">
-                        <div class="d-flex">
+                        <div class="d-flex mb-3">
                             <div class="box-feature mr-2 mr-lg-4">特徴1</div>
-                        <h5 class="box-title mt-lg-4">新規⽴ち上げの⾃社サイトを
-                            急成⻑させた確かな実績</h5>
+                            <h5 class="box-title mt-lg-4">新規⽴ち上げの⾃社サイトを <br>
+                                急成⻑させた確かな実績</h5>
                         </div>
-                            <p class="box-text">
-                                ネッコスは、コンサルティングをする上で
-⾃社での実体験を還元することを⼤切に考えています。
-実際、⾃社サイトでは競合の多い⾦融・保険系やエンタメ
-美容系などのキーワードでSEO上位を獲得し、
-マネタイズに成功してきました。ここで培ったノウハウを元に
-顧客⽬線のコンサルティングを⾏っていきます。
-                            </p>
+                        <p class="box-text">
+                            ネッコスは、コンサルティングをする上で
+                            ⾃社での実体験を還元することを⼤切に考えています。
+                            実際、⾃社サイトでは競合の多い⾦融・保険系やエンタメ
+                            美容系などのキーワードでSEO上位を獲得し、
+                            マネタイズに成功してきました。ここで培ったノウハウを元に
+                            顧客⽬線のコンサルティングを⾏っていきます。
+                        </p>
                     </div>
                 </div>
                 <div class="row align-items-lg-center box">
@@ -215,19 +226,19 @@ SEO対策の取り組みが
                         <img src="./assets/img/img-box2.svg" alt="" class="box-img box-img-2 mb-4 mb-lg-0">
                     </div>
                     <div class="col-lg">
-                        <div class="d-flex">
+                        <div class="d-flex mb-3">
                             <div class="box-feature mr-2 mr-lg-4">特徴2</div>
-                        <h5 class="box-title mt-lg-4">経験豊富なコンサルタントが
-                            課題に沿ったSEO戦略をご提案</h5>
+                            <h5 class="box-title mt-lg-4">経験豊富なコンサルタントが <br>
+                                課題に沿ったSEO戦略をご提案</h5>
                         </div>
-                            <p class="box-text">
-                                ⼤⼿SEO専⾨会社で多数の実績を残した経験豊富で
-専⾨性の⾼いコンサルタントが、
-結果の⾒えるSEO戦略をご提案。
-ウェブサイトの課題や⽬標ごとに最適な運営⽅針・
-施策の 優先度を決定していくため、
-効率的に成果を上げることが可能です。
-                            </p>
+                        <p class="box-text">
+                            ⼤⼿SEO専⾨会社で多数の実績を残した経験豊富で
+                            専⾨性の⾼いコンサルタントが、
+                            結果の⾒えるSEO戦略をご提案。
+                            ウェブサイトの課題や⽬標ごとに最適な運営⽅針・
+                            施策の 優先度を決定していくため、
+                            効率的に成果を上げることが可能です。
+                        </p>
                     </div>
                 </div>
                 <div class="row align-items-lg-center box">
@@ -235,34 +246,282 @@ SEO対策の取り組みが
                         <img src="./assets/img/img-box3.svg" alt="" class="box-img box-img-3 mb-4 mb-lg-0">
                     </div>
                     <div class="col-lg">
-                        <div class="d-flex">
+                        <div class="d-flex mb-3">
                             <div class="box-feature mr-2 mr-lg-4">特徴3</div>
-                        <h5 class="box-title mt-lg-4">伴⾛型SEOコンサルティングで
-                            ⼩回りの効く対応が可能</h5>
+                            <h5 class="box-title mt-lg-4">伴⾛型SEOコンサルティングで <br>
+                                ⼩回りの効く対応が可能</h5>
                         </div>
-                            <p class="box-text">
-                                ネッコスは少⼈数精鋭でSEOレポーティングや施策の 
-ご提案をしていきます。少⼈数でもサービスの充実度は
-⼤⼿企業並み！お客様任せではなく、⼀緒に成果を上げて
-いくという姿勢で、疑問点や不安があればいつでも迅速に回答します。
-                            </p>
+                        <p class="box-text">
+                            ネッコスは少⼈数精鋭でSEOレポーティングや施策の
+                            ご提案をしていきます。少⼈数でもサービスの充実度は
+                            ⼤⼿企業並み！お客様任せではなく、⼀緒に成果を上げて
+                            いくという姿勢で、疑問点や不安があればいつでも迅速に回答します。
+                        </p>
                     </div>
                 </div>
             </div>
         </section>
         <section id="sec4">
             <div class="container text-center">
-                <div class="bg-base p-3 p-lg-5">
-                    <h2 class="text-title mb-5">SEO対策でお困りならネッコスにお任せください！</h2>
+                <div class="bg-base px-3 py-5 p-lg-5">
+                    <h2 class="text-title mb-5">SEO対策でお困りな<span class="d-block d-sm-inline-block">らネッコスにお任せく</span>ださい！
+                    </h2>
                     <p>サービスについて詳しく知りたい方はこちら</p>
-                    <button class="btn btn-brown">資料請求・お問い合わせ</button>
+                    <button class="btn btn-brown btn-lg px-5">資料請求・お問い合わせ</button>
                 </div>
             </div>
         </section>
-        <section id="sec5"></section>
-        <section id="sec6"></section>
-        <section id="sec7"></section>
-        <section id="sec8"></section>
+        <section id="sec5">
+            <div class="container text-center">
+                <h2 class="text-title mb-4">
+                    ネッコスの
+                    <span class="d-block d-sm-inline-block">SEOサービスでの</span>
+                    <span class="d-block">成果実績⼀例</span>
+                </h2>
+                <p class="text-subtitle mb-4 mb-lg-5">
+                    <span>エンタメ系オウンドメディア 2017年8月〜2018年8月</span>
+                </p>
+                <div class="row">
+                    <div class="col-lg-6 mb-4">
+                        <img src="./assets/img/chart-1.svg" alt="" class="img-fluid">
+                    </div>
+                    <div class="col-lg-6 mb-4">
+                        <img src="./assets/img/chart-2.svg" alt="" class="img-fluid">
+                    </div>
+                    <div class="col-lg-12 mb-5">
+                        <p>
+                            最新のオーガニック検索流⼊数は、<span class="text-underline">昨⽉対⽐ +720,610 （153.6%）</span> 、PV 数は、<br>
+                            <span class="text-underline">昨⽉対⽐ +1,630,867 （133.5%）</span>、 <span
+                                class="text-underline">昨年対⽐ +4,068,530 （267.8%)</span> と⼤幅に上昇
+                        </p>
+                    </div>
+                    <div class="col-lg-12">
+                        <img src="./assets/img/chart-3.svg" alt="" class="img-fluid mb-4">
+                        <p>
+                            上位順位取得のため記事を制作しマークしていた 560 キーワード中、<br>
+                            250 キーワードが検索順位 <span class="text-underline">10位以内、</span> そのうち 49 キーワード<span
+                                class="text-underline">が 1 位を獲</span>得
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="sec6" class="bg-base">
+            <div class="container text-center">
+                <h2 class="text-title mb-5">ご利⽤の流れ</h2>
+                <div class="row align-items-lg-center mb-4">
+                    <div class="col-lg-4 col-xl-3">
+                        <img src="./assets/img/icon-step-1.svg" alt="" class="step-img">
+                        <h5 class="step-title">お問い合わせ</h5>
+                    </div>
+                    <div class="col-lg">
+                        <p class="step-text">
+                            弊社サービスの詳細について知りたい方は、<br class="d-lg-none">
+                            当ページの<br class="d-none d-lg-block">お問い合わせフォームより<br class="d-lg-none">
+                            お問い合わせください。<br class="d-none d-lg-block">ウェブ集客で<br class="d-lg-none">
+                            お困りの方や、SEO対策についてのご質問・<br>
+                            ご相談でもお気軽にご連絡ください。
+                        </p>
+                    </div>
+                </div>
+                <div class="row align-items-lg-center mb-4">
+                    <div class="col-lg-4 col-xl-3">
+                        <img src="./assets/img/icon-step-2.svg" alt="" class="step-img">
+                        <h5 class="step-title">ヒアリング</h5>
+                    </div>
+                    <div class="col-lg">
+                        <p class="step-text">
+                            お電話や訪問、ウェブでのお打ち合わせにて<br>
+                            お客様の課題感や⽬標などを共有いただき、<br>
+                            最適な施策のご提案や現状の課題点の洗い出し<br class="d-lg-none">
+                            などを⾏います。
+                        </p>
+                    </div>
+                </div>
+                <div class="row align-items-lg-center mb-4">
+                    <div class="col-lg-4 col-xl-3">
+                        <img src="./assets/img/icon-step-3.svg" alt="" class="step-img">
+                        <h5 class="step-title">ご契約</h5>
+                    </div>
+                    <div class="col-lg">
+                        <p class="step-text">
+                            ご提案内容にご納得いただき、<br class="d-lg-none">
+                            現状の課題についても共通認識を<br class="d-none d-lg-block">もつことが <br class="d-lg-none">
+                            できましたら、契約を締結し施策の開始に向けた <br class="d-lg-none">
+                            準備を行います。<br class="d-none d-lg-block">この時点でもご不明点や <br class="d-lg-none">
+                            不安に感じていることがありましたら、<br>
+                            解消出来るまでしっかりとすり合わせを行います。
+                        </p>
+                    </div>
+                </div>
+                <div class="row align-items-lg-center">
+                    <div class="col-lg-4 col-xl-3">
+                        <img src="./assets/img/icon-step-4.svg" alt="" class="step-img">
+                        <h5 class="step-title">ご利⽤開始</h5>
+                    </div>
+                    <div class="col-lg">
+                        <p class="step-text">
+                            ご提案内容に沿って施策を開始していきます。<br>
+                            毎月のレポートやヘルスケアにより、<br class="d-lg-none">
+                            しっかりと<br class="d-none d-lg-block">ウェブサイトの状態を定点観測 <br class="d-lg-none">
+                            しながら進めていきます。
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="sec7">
+            <div class="header">
+                <picture>
+                    <source media="(max-width: 991px)" srcset="./assets/img/img-qa.svg">
+                    <source media="(min-width: 992px)" srcset="./assets/img/img-qa@2x.svg">
+                    <img src="./assets/img/img-qa@2x.svg" alt="neccos" class="w-100">
+                </picture>
+                <h2 class="text-title text-center my-4 my-lg-0">よくある質問</h2>
+            </div>
+            <div class="container">
+                <div class="accordion" id="accordionQA">
+                    <div class="card">
+                        <h5 class="card-header" data-toggle="collapse" data-target="#collapse1" aria-expanded="true">
+                            <span class="card-header-icon">Q</span>
+                            SEOをわかりやすく説明するとどんなものですか？
+                        </h5>
+                        <div id="collapse1" class="collapse show" data-parent="#accordionQA">
+                            <div class="card-body">
+                                現状の課題や優先すべき施策などにより、お客様⼀⼈ひとりにご提案する内容はまったく異なります。
+                                そのため、決まった料⾦のご案内ではなくオーダーメイド施策に合わせて費⽤を検討させていただきます。
+                                料⾦について詳しく知りたいという⽅は、恐れ⼊りますが、当ページよりお問い合わせください。
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <h5 class="card-header" data-toggle="collapse" data-target="#collapse2">
+                            <span class="card-header-icon">Q</span>
+                            依頼した場合の費⽤について教えてください。
+                        </h5>
+                        <div id="collapse2" class="collapse" data-parent="#accordionQA">
+                            <div class="card-body">
+                                現状の課題や優先すべき施策などにより、お客様⼀⼈ひとりにご提案する内容はまったく異なります。
+                                そのため、決まった料⾦のご案内ではなくオーダーメイド施策に合わせて費⽤を検討させていただきます。
+                                料⾦について詳しく知りたいという⽅は、恐れ⼊りますが、当ページよりお問い合わせください。
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <h5 class="card-header" data-toggle="collapse" data-target="#collapse3">
+                            <span class="card-header-icon">Q</span>
+                            施策の成果はどれくらいの期間で出ますか？
+                        </h5>
+                        <div id="collapse3" class="collapse" data-parent="#accordionQA">
+                            <div class="card-body">
+                                現状の課題や優先すべき施策などにより、お客様⼀⼈ひとりにご提案する内容はまったく異なります。
+                                そのため、決まった料⾦のご案内ではなくオーダーメイド施策に合わせて費⽤を検討させていただきます。
+                                料⾦について詳しく知りたいという⽅は、恐れ⼊りますが、当ページよりお問い合わせください。
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <h5 class="card-header" data-toggle="collapse" data-target="#collapse4">
+                            <span class="card-header-icon">Q</span>
+                            SEOに強い記事作成のサービ
+                            スはありますか？
+                        </h5>
+                        <div id="collapse4" class="collapse" data-parent="#accordionQA">
+                            <div class="card-body">
+                                現状の課題や優先すべき施策などにより、お客様⼀⼈ひとりにご提案する内容はまったく異なります。
+                                そのため、決まった料⾦のご案内ではなくオーダーメイド施策に合わせて費⽤を検討させていただきます。
+                                料⾦について詳しく知りたいという⽅は、恐れ⼊りますが、当ページよりお問い合わせください。
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="sec8" class="bg-base">
+            <div class="container">
+                <h2 class="text-title text-center mb-4 mb-lg-5">
+                    無料相談受付中！<br>
+                    資料請求・お問い合<br class="d-lg-none">
+                    わせはこちらから
+                </h2>
+                <p class="text-center mb-4 mb-lg-5">
+                    弊社サービスに興味をお持ちいただき<br class="d-lg-none">ありがとうございます。<br>
+                    資料請求やサービスについての<br class="d-lg-none">お問い合わせは、下記のフォームよりお願い<br class="d-lg-none">いたします。<br
+                        class="d-none d-lg-block">
+                    お電話からのご相談も<br class="d-lg-none">承っておりますのでご連絡ください。
+                </p>
+                <div class="contact-phone mb-4 mb-lg-5">
+                    <picture>
+                        <source media="(max-width: 991px)" srcset="./assets/img/phone-yellow.png">
+                        <source media="(min-width: 992px)" srcset="./assets/img/phone-yellow@2x.png">
+                        <img src="./assets/img/phone-yellow@2x.png" alt="neccos" class="mr-3">
+                    </picture>
+                    <div>
+                        <a href="tel:+" class="text-brown font-weight-bold">03-6869-5536</a>
+                        <small class="d-block">平⽇10：00〜18：00</small>
+                    </div>
+                </div>
+                <form action="/" class="contact-form">
+                    <div class="row mb-4">
+                        <div class="col-lg-6 form-group">
+                            <label for="">会社名<span class="text-red">*</span></label>
+                            <input type="text" class="form-control">
+                        </div>
+                        <div class="col-lg-6 form-group">
+                            <label for="">メールアドレス<span class="text-red">*</span></label>
+                            <input type="text" class="form-control">
+                        </div>
+                        <div class="col-lg-6 form-group">
+                            <label for="">氏名<span class="text-red">*</span></label>
+                            <input type="text" class="form-control">
+                        </div>
+                        <div class="col-lg-6 form-group">
+                            <label for="">電話番号<span class="text-red">*</span></label>
+                            <input type="text" class="form-control">
+                        </div>
+                        <div class="col-lg-6 form-group">
+                            <label for="">お問い合わせの種類をお選びください<span class="text-red">*</span></label>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1"
+                                    value="資料請求">
+                                <label class="form-check-label" for="exampleRadios1">
+                                    資料請求
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2"
+                                    value="SEOについてお問い合わせ">
+                                <label class="form-check-label" for="exampleRadios2">
+                                    SEOについてお問い合わせ
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3"
+                                    value="弊社サービスに関するお問い合わせ">
+                                <label class="form-check-label" for="exampleRadios3">
+                                    弊社サービスに関するお問い合わせ
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios4"
+                                    value="その他他">
+                                <label class="form-check-label" for="exampleRadios4">
+                                    その他他
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 form-group">
+                            <label for="">お問い合わせ内容<span class="text-red">*</span></label>
+                            <textarea rows="4" class="form-control"></textarea>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <button type="submit" class="btn btn-brown btn-lg px-5 mb-3">送信する</button>
+                        <p class="small">プライバシーポリシー 利⽤規約</p>
+                    </div>
+                </form>
+            </div>
+        </section>
     </main>
     <footer class="bg-brown text-white py-5">
         <div class="container text-center">
@@ -271,7 +530,12 @@ SEO対策の取り組みが
         </div>
     </footer>
     <!-- JS -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.bundle.min.js" integrity="sha512-kBFfSXuTKZcABVouRYGnUo35KKa1FBrYgwG4PAx7Z2Heroknm0ca2Fm2TosdrrI356EDHMW383S3ISrwKcVPUw==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+        integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.bundle.min.js"
+        integrity="sha512-kBFfSXuTKZcABVouRYGnUo35KKa1FBrYgwG4PAx7Z2Heroknm0ca2Fm2TosdrrI356EDHMW383S3ISrwKcVPUw=="
+        crossorigin="anonymous"></script>
 </body>
+
 </html>

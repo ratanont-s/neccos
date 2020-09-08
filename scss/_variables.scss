@@ -1,6 +1,8 @@
 // Fonts
-$font-family-base: 'Noto Sans JP', sans-serif;
+$font-family-base: 'Noto Sans JP',
+sans-serif;
 $font-yu: 'Yu Gothic';
+$enable-responsive-font-sizes: true;
 
 // Colors
 $red:#FB5547;
@@ -9,10 +11,14 @@ $orange:#FF9E19;
 $brown: #562E00;
 $base: #F0EDE8;
 
-$theme-colors: (
-  "red": $red,
+$theme-colors: ("red": $red,
   "blue": $blue,
   "orange": $orange,
   "brown": $brown,
-  "base": $base
-);
+  "base": $base);
+
+// Input
+$input-border-color: #DCDCDC;
+
+// Links
+$link-hover-decoration: none;
